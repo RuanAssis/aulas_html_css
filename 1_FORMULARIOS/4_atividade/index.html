@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" requiered>
+        </div>
+        <div>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" requiered>
+        </div>
+        <div>
+            <label for="nascimento">Data de nascimento:</label>
+            <input type="date" id="nascimento" placeholder="Digite sua data de nascimento" requiered>
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" requiered>
+        </div>
+        <p></p>
+        <div>
+            <p>1.Qual a montanha mais alta do mundo?</p>
+
+            <div>
+                <input type="radio" id="everest" name="mais alta">
+                <label for="everest">Monte Everest</label>
+            </div>
+            <div>
+                
+                <input type="radio" id="pico" name="mais alta">
+                <label for="pico">Pico da Neblina</label>
+            </div>
+            <div>
+                <input type="radio" id="kea" name="mais alta">
+                <label for="kea">Mauna Kea</label>
+            </div>
+            <div>
+                <input type="radio" id="dhaulagiri" name="mais alta">
+                <label for="dhaulagiri">Dhaulagiri</label>
+            </div>
+            <p></p>
+            <div>
+                <label for="nivel">Nivel de sastifação:</label>
+                <select name="nivel" id="nivel">
+                    <option disabled selected> Selecione...</option>
+                    <option value="pessimo">Péssimo</option>
+                    <option value="ruim">Ruim</option>
+                    <option value="bom">Bom</option>
+                    <option value="bom">Ótimo</option>
+                </select>
+            </div>
+            <p></p>
+            <button>Enviar</button>
+    </form>
+</body>
+</html>
