@@ -1,27 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>ID e CLASS</title>
+    <title>Portugal</title>
 </head>
-<body>
-    <h1>ID e CLASS</h1>
 
-    <h2>CLASS</h2>
-    <p>Existem duas características principais do class:</p>
-    <ul>
-        <li>É possível utilizar o mesmo class em vários elementos diferentes</li>
-        <li>É possível utilizar várias classes no MESMO elemento</li>
-    </ul>
+<body class="content">
+    <section>
+        <form action="#">
 
-    <h2>ID</h2>
-    <p>Existem duas características principais do ID que são contrastantes com as características do class:</p>
-    <ul>
-        <li>Não é possível utilizar o mesmo ID em vários elementos diferentes.</li>
-        <li>Não é possível utilizar VÁRIOS IDs no mesmo elemento</li>
-    </ul>
-    <p>O ID funciona como um CPF. Não podem existir dois iguais e a mesma pessoa não pode ter vários CPFs</p>
+            <fieldset>
+                <legend>Usuário</legend>
+
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="lname" name="lname" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="DT">Data Nascimento:</label>
+                <input type="date" id="DT" name="DT" required>
+
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </section>
 </body>
 </html>
